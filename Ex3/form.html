@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+	</head>
+    <body>
+		<form>
+		    <h1>Sirius Computer Solutions</h1>
+			<h2>Register</h2>
+			<h3><b>Please provide following Information</b></h3>
+			
+			
+			<div><sup style="color:red">*</sup>denotes required field</div>
+			<table cellpadding = "20" cellspacing = "0" width = "50%">
+				<tr>
+					<td>
+						<label for="username"><b>Login ID:</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "text" name = "username" required /> 
+					</td>
+					<td>
+						<label for="password"><b>Password:</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "password" name = "password" required /> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="vpassword"><b>Verify password:</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "password" name = "vpassword" required /> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="fname"><b>First name:</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "text" name = "fname" required /> 
+					</td>
+					<td>
+						<label for="lname"><b>Last name:</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "text" name = "lname" required /> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="streetsddress"><b>Street Address:</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "text" name = "streetaddress" required /> 
+					</td>
+					<td>
+					    <label for="streetsddressone"><b>Street AddressLine 1:</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "text" name = "streetaddressone" required /> 
+					</td>
+				</tr>
+				<tr> 
+				    <td>
+					    <label for="city"><b>City:</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "text" name = "city" required /> 
+					</td>	
+				</tr>
+				
+				<tr>
+					<td>
+						<label for="c/r"><b>Country/region</b><sup style="color:Red">*</sup></label><br/>
+						<select name = "country" required >
+							<option value = "unitedstates" selected>United States Of America</option>
+							<option value = "china" >China</option>
+							<option value = "england" >England</option>
+						</select>	
+					</td>
+					<td>
+						<label for="s/p"><b>State/province</b><sup style="color:Red">*</sup></label><br/>
+						<select name = "country" required >
+							<option value = "alabama" selected>Alabama</option>
+							<option value = "trichy" >Trichy</option>
+							<option value = "madurai" >Madurai</option>
+						</select> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="pin"><b>Zip/postal code</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "number" name = "pin" required /> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="email"><b>Email</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "email" name = "email" required /> 
+					</td><td>
+						<label for="pno"><b>Phone number</b><sup style="color:Red">*</sup></label><br/>
+						<input type = "number" name = "pno" required /> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div>
+							<input type = "checkbox" name = "sendemail"/><b>Send me e-mails about store specials</b>
+						</div>	
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="language"><b>Prefered Language</b></label><br/>
+						<select name = "language">
+							<option value = "USEng" selected>United States English</option>
+							<option value = "BEng" >Britain English</option>
+							<option value = "Tamil" >Tamil</option>
+						</select>	
+					</td>
+					<td>
+						<label for="currency"><b>Preferred Currency:</b></label><br/>
+						<select name = "currency">
+							<option value = "usd" selected>US Dollar</option>
+							<option value = "sd" >Singapore Dollars</option>
+							<option value = "reaal" >Saudi Reaal</option>
+						</select> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="gender"><b>Gender:</b></label><br/>
+						<select name = "gender">
+							<option value = "male" >Male</option>
+							<option value = "female" >Female</option>
+						</select> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div>
+							<div><b>Birthday:</b><a href=""><b>Privacy Policy</b></a></div>
+							<table>
+								<tr>
+									<td>
+										<label for = "Year"><b>Year</b></label><br/>
+										<select name = "Year">
+										    <option value = "2000" >2000</option>
+											<option value = "2001" >2001</option>
+											<option value = "2002" >2002</option>
+											<option value = "2003" >2003</option>
+											<option value = "2004" >2004</option>
+											<option value = "2005" >2005</option>
+											<option value = "2006" >2006</option>
+											<option value = "2007" >2007</option>
+										</select> 		
+									</td>
+									<td>
+										<label for = "Month"><b>Month</b></label><br/>
+										<select name = "Month">
+											<option value = "1" >January</option>
+											<option value = "2" >February</option>
+											<option value = "3" >March</option>
+											<option value = "4" >April</option>
+											<option value = "5" >May</option>
+											<option value = "6" >June</option>
+											<option value = "7" >July</option>
+											<option value = "8" >August</option>
+										</select>
+									</td>
+									<td>
+										<label for = "Date"><b>Date</b></label><br/>
+										<select name = "Date">
+											<option value = "01" >1</option>
+											<option value = "02" >2</option>
+											<option value = "03" >3</option>
+											<option value = "04" >4</option>
+											<option value = "04" >4</option>
+											<option value = "04" >4</option>
+										</select>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>	
+				<tr>
+					<td>
+						<label for = "country"><b>Country:</b></label><br/>
+						<select name = "country">
+							<option value = "unitedstates" selected>United States Of America</option>
+							<option value = "england" >England</option>
+							<option value = "europe" >Europe</option>
+						</select>
+					</td>
+					<td>
+						<label for = "MobileNum"><b>Mobile phone number:</b></label><br/>
+						<input type = "number"  value = "+1" name = "mno"/>
+						<input type = "number"  value = "" name = "mno+"/>
+					</td>
+				</tr>
+			</table>	
+			<div>
+			     <input type = "checkbox" name = "phoneNotify"/><b>Send SMS notifications to mobile phone</b>
+		    </div></br>
+			<div>
+			     <input type = "checkbox" name = "phonePromotion"/><b>Send SMS promotions to mobile phone</b>
+		    </div></br>
+			
+			<div>
+			      <input type = "checkbox" name = "remember"/><b>remember me</b>
+			
+			</div></br>
+			<input type = "submit" value = "Submit"/>
+			<input type = "submit" value = "Cancel"/>
+		</form>	
+	</body>
+</html>
