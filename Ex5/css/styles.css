@@ -1,0 +1,109 @@
+*{
+	box-sizing : border-box;
+	margin : 0;
+	padding : 0;
+	font-family : Lato;
+}
+body{
+	background : #E9E9E9;
+}
+.header{
+	padding : 10px;
+	text-align : center;
+	font-size : 20px;	
+	font-style : bold;
+}
+.navigation li{
+	padding : 0px 5px 10px;
+	display : inline-block;
+}
+.linker{
+	color : #111;
+	text-decoration:none
+}
+img{
+	width : 100%;
+}
+.image img{
+	height : 380px;
+	margin-bottom : 25px;
+}
+.container{
+	width : 1000px;
+	margin : 10px auto;
+}
+.places-visit{
+	width : fit-content;
+}
+.city-visit{
+	margin : 10px;
+	width : 300px;
+	display : inline-block;
+	vertical-align : top;
+	background : white;
+}
+.imgheight img{
+	height : 230px;
+}
+
+.city-visit-details{
+	text-align : left;
+	padding : 10px;
+}
+.city-visit-details div{
+	font-size : 15px;
+	padding : 0px 5px;
+	font-weight : bold;
+}
+.city-visit-details p{
+	font-size : 12px;
+	padding : 5px;
+	text-align : justify;
+}
+.box{
+	width : 1000px;
+	margin : 0 auto;
+}
+.know-india{
+	margin : 20px auto;
+	width : fit-content;
+	padding : 0px;
+}
+.know-india div{
+	text-align : center;
+	font-size : 30px;
+	font-weight : 15px;
+	padding : 15px;
+}
+.know-india p{
+	text-align : justify;
+	font-size : 20px;
+	padding-right : 35px;
+}
+footer{
+	background : #280235;
+	margin : 20px auto;
+	width : 100%;
+	margin : 0px;
+}
+.footer-spacing{
+	width : 1000px;
+	margin : 0px auto;
+	color : white;
+	
+}
+.footer-spacing > div{
+	width : 450px;
+	padding : 15px 5px;
+	display : inline-block;
+	vertical-align : top;
+	margin : 10px;
+}
+.footer-spacing h3{
+	color : yellow;
+	padding : 10px 0px;
+	font-size : 20px;
+}
+.footer-spacing p{
+	font-size : 12px;
+}
